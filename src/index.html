@@ -2,33 +2,37 @@
 <html>
   <head>
     <title>KANUSAN KARUNARAJAH</title>
-    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
-    <script src="https://cdn.tailwindcss.com"></script>»
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <div class="header">
-      <h1>WILLKOMMEN</h1>
+  <body class="bg-gray-100">
+    <div class="header bg-gray-200 py-4 text-center">
+      <h1 class="text-2xl font-bold">WILLKOMMEN</h1>
     </div>
-    <div class="nav">
-      <ul>
-        <li>HOME</li>
-        <li>KAENU</li>
-        <li>IMPRESSUM</li>
+    <div class="nav bg-gray-400 py-4 text-center">
+      <ul class="flex justify-center">
+        <li class="px-4"><a class="text-white font-bold" href="#">HOME</a></li>
+        <li class="px-4"><a class="text-white font-bold" href="#">KAENU</a></li>
+        <li class="px-4"><a class="text-white font-bold" href="#">IMPRESSUM</a></li>
       </ul>
     </div>
-    <div class="content">
-      <div class="main-image">
-        <img src="willkommen.jpg" alt="willkommensbild">
+    <div class="content py-4 text-center">
+      <div class="main-image mx-auto">
+        <!-- Laut Tailwind Docs sollte das, dass Bild verkleinern jedoch sehe ich keinen Unterschied und Hilfe-Recherchen haben auch nichts gebracht.
+        -- alles über w-20 ist viel zu gross--
+       -->
+        <img src="willkommen.jpg" alt="willkommensbild" class="w-20 mx-auto">
         <p><a href="http://www.freepik.com">Designed by Freepik</a></p>
       </div>
-      <div class="titel">
+      <div class="titel mt-4 text-2xl font-bold">
         <h2>Willkommen auf meiner Seite</h2>
       </div>
-      <div class="text">
+      <div class="text text-lg leading-relaxed mb-4">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, voluptas, veritatis est voluptatibus velit maxime, aliquam doloribus placeat maiores voluptatem doloremque? Nobis laboriosam ab incidunt ea quaerat possimus voluptatibus.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, voluptas, veritatis est voluptatibus velit maxime, aliquam doloribus placeat maiores voluptatem doloremque? Nobis laboriosam ab incidunt ea quaerat possimus voluptatibus.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, voluptas, veritatis est voluptatibus velit maxime, aliquam doloribus placeat maiores voluptatem doloremque? Nobis laboriosam ab incidunt ea quaerat possimus voluptatibus.</p>
       </div>
     </div>
-    <div class="footer">
+    <div class="footer bg-gray-400 py-2 text-center">
       <p>Copyright &copy; 2020</p>
     </div>
   </body>
